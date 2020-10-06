@@ -1,0 +1,930 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qqdt-zzk2",
+      "name" : "Seattle Traffic Camera Map",
+      "attribution" : "City of Seattle",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1337376664,
+      "description" : "Traffic cameras in Seattle owned by SDOT and WSDOT",
+      "displayType" : "map",
+      "downloadCount" : 476,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1560291828,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 953150,
+      "previewImageId" : "d39420fa-92ec-4dde-a007-1d4f1cba0ffe",
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1344362605,
+      "publicationGroup" : 343396,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1344362576,
+      "rowsUpdatedBy" : "pfbu-yuv5",
+      "tableId" : 398172,
+      "totalTimesRated" : 0,
+      "viewCount" : 3939,
+      "viewLastModified" : 1472441349,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1344362605,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 330127,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1344362605,
+        "workflowId" : 623,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "pfbu-yuv5",
+          "displayName" : "Seattle IT"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 15134604,
+        "name" : "OWNERSHIPCD",
+        "dataTypeName" : "text",
+        "fieldName" : "ownershipcd",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2904939,
+        "width" : 99,
+        "cachedContents" : {
+          "non_null" : 135,
+          "null" : "0",
+          "top" : [ {
+            "item" : "SDOT",
+            "count" : "114"
+          }, {
+            "item" : "WSDOT",
+            "count" : "21"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 15134605,
+        "name" : "CAMERALABEL",
+        "dataTypeName" : "text",
+        "fieldName" : "cameralabel",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2904940,
+        "width" : 265,
+        "cachedContents" : {
+          "non_null" : 135,
+          "null" : "0",
+          "top" : [ {
+            "item" : "SR-520 East Highrise",
+            "count" : "3"
+          }, {
+            "item" : "5th Ave NE & NE Northgate Way",
+            "count" : "2"
+          }, {
+            "item" : "W Seattle Bridge Mid",
+            "count" : "1"
+          }, {
+            "item" : "23rd Ave S & S Jackson St - NS",
+            "count" : "1"
+          }, {
+            "item" : "Broadway & E Roy St",
+            "count" : "1"
+          }, {
+            "item" : "9th & James",
+            "count" : "1"
+          }, {
+            "item" : "Denny,Stewart,Yale",
+            "count" : "1"
+          }, {
+            "item" : "1st Ave S & S Royal Brougham Way",
+            "count" : "1"
+          }, {
+            "item" : "4th Ave S & S Michigan St",
+            "count" : "1"
+          }, {
+            "item" : "LCW & 15th Ave NE - NS",
+            "count" : "1"
+          }, {
+            "item" : "I-5 @ Lake City Way",
+            "count" : "1"
+          }, {
+            "item" : "15th Ave NW & NW 65th St - NS",
+            "count" : "1"
+          }, {
+            "item" : "15th Ave NW & NW Market St - NS",
+            "count" : "1"
+          }, {
+            "item" : "Aurora Ave N & N 46th St",
+            "count" : "1"
+          }, {
+            "item" : "Fauntleroy SW & SW Cloverdale St",
+            "count" : "1"
+          }, {
+            "item" : "Roosevelt Way NE & NE 75th St",
+            "count" : "1"
+          }, {
+            "item" : "23rd Ave E & E Madison St - EW",
+            "count" : "1"
+          }, {
+            "item" : "1st Ave S & S Holgate St",
+            "count" : "1"
+          }, {
+            "item" : "Rainier Ave S & S Hudson St",
+            "count" : "1"
+          }, {
+            "item" : "42nd Ave SW & SW Alaska St",
+            "count" : "1"
+          } ],
+          "cardinality" : "132"
+        },
+        "format" : { }
+      }, {
+        "id" : 15134606,
+        "name" : "IMAGEURL",
+        "dataTypeName" : "url",
+        "fieldName" : "imageurl",
+        "position" : 3,
+        "renderTypeName" : "url",
+        "tableColumnId" : 2904941,
+        "width" : 382,
+        "cachedContents" : {
+          "non_null" : 135,
+          "largest" : {
+            "url" : "http://www.seattle.gov/trafficcams/images/northgate_5thb.jpg"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/520vc00093.jpg"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/005vc16508.jpg"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/099vc02671.jpg"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/090vc00318.jpg"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/520vc00398.jpg"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/090vc00508.jpg"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/520vc00241.jpg"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/005vc16396.jpg"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/005vc16123.jpg"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/005vc16607.jpg"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://images.wsdot.wa.gov/nw/005vc17277.jpg"
+            },
+            "count" : 10
+          } ],
+          "smallest" : {
+            "url" : "http://images.wsdot.wa.gov/nw/005vc15970.jpg"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 15134607,
+        "name" : "VIDEOURL",
+        "dataTypeName" : "text",
+        "fieldName" : "videourl",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2904942,
+        "width" : 363,
+        "cachedContents" : {
+          "non_null" : 135,
+          "null" : "0",
+          "top" : [ {
+            "item" : "NULL",
+            "count" : "21"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=Airport_Othello.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Fauntleroy_Alaska.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Evanston_36.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=Airport_Industrial.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Aurora_Mercer.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=5_Dearborn.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=1_Marginal.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Wsea_West.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Elliott_Broad.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=42_Alaska.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=15_Dravus.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=130_Aurora.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Pike_Broadway.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Elliott_Mercer.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=1_Atlantic.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Wsea_FwyPullOut.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.142:1935/live&file=25NE_65.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Fairview_Mercer.stream",
+            "count" : "1"
+          }, {
+            "item" : "rtmp://156.74.125.146:1935/live&file=Rainier_Dearborn.stream",
+            "count" : "1"
+          } ],
+          "cardinality" : "115"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 15134608,
+        "name" : "WEBURL",
+        "dataTypeName" : "text",
+        "fieldName" : "weburl",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2904943,
+        "width" : 305,
+        "cachedContents" : {
+          "non_null" : 135,
+          "null" : "0",
+          "top" : [ {
+            "item" : "NULL",
+            "count" : "66"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/sr520_midspaneast.htm",
+            "count" : "3"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/WSB_Mid-span.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/35th_fauntleroy.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/aurora_145tha.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/northgate_5tha.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/145th_lakecity.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/aurora_105th.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/i90_midspan.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/1st_Marginal.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/i5_lakecityway.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/sr520_midspan.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/i90_18th.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/45_Union_Bay.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/7th_pike.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/lakecity_15th.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/i5_i90.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/fauntleroy_alaska.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/1st_Holgate.htm",
+            "count" : "1"
+          }, {
+            "item" : "http://www.seattle.gov/trafficcams/4th_Michigan.htm",
+            "count" : "1"
+          } ],
+          "cardinality" : "68"
+        },
+        "format" : { }
+      }, {
+        "id" : 15134609,
+        "name" : "XPOS",
+        "dataTypeName" : "number",
+        "fieldName" : "xpos",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 2904944,
+        "width" : 81,
+        "cachedContents" : {
+          "non_null" : 135,
+          "average" : "-122.3299032592593",
+          "null" : "0",
+          "top" : [ {
+            "item" : "-122.33438",
+            "count" : "2"
+          }, {
+            "item" : "-122.30268",
+            "count" : "2"
+          }, {
+            "item" : "-122.32130",
+            "count" : "2"
+          }, {
+            "item" : "-122.32912",
+            "count" : "1"
+          }, {
+            "item" : "-122.28111",
+            "count" : "1"
+          }, {
+            "item" : "-122.33951",
+            "count" : "1"
+          }, {
+            "item" : "-122.34426",
+            "count" : "1"
+          }, {
+            "item" : "-122.33367",
+            "count" : "1"
+          }, {
+            "item" : "-122.31321",
+            "count" : "1"
+          }, {
+            "item" : "-122.38532",
+            "count" : "1"
+          }, {
+            "item" : "-122.34487",
+            "count" : "1"
+          }, {
+            "item" : "-122.32067",
+            "count" : "1"
+          }, {
+            "item" : "-122.29561",
+            "count" : "1"
+          }, {
+            "item" : "-122.32058",
+            "count" : "1"
+          }, {
+            "item" : "-122.35652",
+            "count" : "1"
+          }, {
+            "item" : "-122.37690",
+            "count" : "1"
+          }, {
+            "item" : "-122.34354",
+            "count" : "1"
+          }, {
+            "item" : "-122.30024",
+            "count" : "1"
+          }, {
+            "item" : "-122.38128",
+            "count" : "1"
+          }, {
+            "item" : "-122.34463",
+            "count" : "1"
+          } ],
+          "sum" : "-16514.53694",
+          "cardinality" : "132"
+        },
+        "format" : { }
+      }, {
+        "id" : 15134610,
+        "name" : "YPOS",
+        "dataTypeName" : "number",
+        "fieldName" : "ypos",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 2904945,
+        "width" : 71,
+        "cachedContents" : {
+          "non_null" : 135,
+          "average" : "47.62093770370370",
+          "null" : "0",
+          "top" : [ {
+            "item" : "47.56494",
+            "count" : "2"
+          }, {
+            "item" : "47.69050",
+            "count" : "2"
+          }, {
+            "item" : "47.59014",
+            "count" : "2"
+          }, {
+            "item" : "47.64476",
+            "count" : "1"
+          }, {
+            "item" : "47.61917",
+            "count" : "1"
+          }, {
+            "item" : "47.65143",
+            "count" : "1"
+          }, {
+            "item" : "47.73407",
+            "count" : "1"
+          }, {
+            "item" : "47.57088",
+            "count" : "1"
+          }, {
+            "item" : "47.61453",
+            "count" : "1"
+          }, {
+            "item" : "47.59024",
+            "count" : "1"
+          }, {
+            "item" : "47.67611",
+            "count" : "1"
+          }, {
+            "item" : "47.61094",
+            "count" : "1"
+          }, {
+            "item" : "47.57975",
+            "count" : "1"
+          }, {
+            "item" : "47.68250",
+            "count" : "1"
+          }, {
+            "item" : "47.57991",
+            "count" : "1"
+          }, {
+            "item" : "47.56097",
+            "count" : "1"
+          }, {
+            "item" : "47.61395",
+            "count" : "1"
+          }, {
+            "item" : "47.68294",
+            "count" : "1"
+          }, {
+            "item" : "47.52640",
+            "count" : "1"
+          }, {
+            "item" : "47.55746",
+            "count" : "1"
+          } ],
+          "sum" : "6428.82659",
+          "cardinality" : "132"
+        },
+        "format" : { }
+      }, {
+        "id" : 15134611,
+        "name" : "LOCATION",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 2904946,
+        "width" : 196,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 412544907,
+        "name" : "Seattle Police Department Micro Community Policing Plan Areas",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_ru88_fbhk",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 82285434,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_ru88-fbhk",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 412544911,
+        "name" : "2010 Census Tracts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_2day_rhn5",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 82285435,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_2day-rhn5",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 412544915,
+        "name" : "City Council Districts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_cyqu_gs94",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 82285436,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_cyqu-gs94",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 412544919,
+        "name" : "SPD Beats",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_kuhn_3gp2",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 82285437,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_kuhn-3gp2",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 412544923,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_q256_3sug",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 82285438,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_q256-3sug",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "displayFormat" : {
+        "color" : "#0000ff",
+        "plot" : {
+          "locationId" : 2904946,
+          "titleId" : 2904940,
+          "descriptionColumns" : [ {
+            "tableColumnId" : 2904941
+          } ]
+        },
+        "flyoutsNoLabel" : false,
+        "layers" : [ {
+          "options" : {
+            "opacity" : 1
+          },
+          "type" : "tile",
+          "url" : "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"
+        } ],
+        "type" : "esri",
+        "plotStyle" : "point"
+      },
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Refresh Frequency" : {
+            "Frequency" : "as new data is available"
+          },
+          "Data Owner" : {
+            "Owner" : "Department of Information Technology"
+          }
+        },
+        "sidebar" : {
+          "width" : 300
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true,
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Seattle IT",
+        "profileImageUrlLarge" : "/api/users/pfbu-yuv5/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/pfbu-yuv5/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/pfbu-yuv5/profile_images/TINY",
+        "screenName" : "Seattle IT",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 15134610,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "i39k-w54z",
+        "displayName" : "Lynch, Chad",
+        "screenName" : "Lynch, Chad",
+        "type" : "interactive",
+        "userSegment" : "site_member"
+      },
+      "tags" : [ "transportation", "cameras", "traffic", "street" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-sk8n_s2y7~jz3r", "00000000-0000-0000-B49D-63DE64252420", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Airport Way S & S Industrial Way", [ "http://www.seattle.gov/trafficcams/images/Airport_Industrial.jpg", null ], "rtmp://156.74.125.142:1935/live&file=Airport_Industrial.stream", "NULL", "-122.32287", "47.56494", [ null, "47.56494", "-122.32287", null, false ], "22", null, null, "36", "18388" ]
+, [ "row-3fdm-4bwi~2esx", "00000000-0000-0000-FB2B-C5CCDD45C555", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Westlake & Broad", [ "http://www.seattle.gov/trafficcams/images/Westlake_Broad.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Westlake_Broad.stream", "NULL", "-122.33861", "47.62561", [ null, "47.62561", "-122.33861", null, false ], "56", null, null, "7", "18390" ]
+, [ "row-rzup-qvi2.g2ev", "00000000-0000-0000-973D-A7C754DE4B82", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave W & W Emerson St", [ "http://www.seattle.gov/trafficcams/images/15W_Emerson.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15_Emerson.stream", "NULL", "-122.37612", "47.65408", [ null, "47.65408", "-122.37612", null, false ], "50", null, null, "39", "19575" ]
+, [ "row-gwt3_rkpx_a27i", "00000000-0000-0000-48CA-243FE8C41353", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Eastlake Ave & Stewart St", [ "http://www.seattle.gov/trafficcams/images/Eastlake_Stewart.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Eastlake_Stewart.stream", "NULL", "-122.32904", "47.61969", [ null, "47.61969", "-122.32904", null, false ], "56", null, null, "10", "18390" ]
+, [ "row-fwyu.5wk2~xhpb", "00000000-0000-0000-BA79-79A8123D0268", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Montlake Blvd NE & NE Pacific St", [ "http://www.seattle.gov/trafficcams/images/Montlake_Pacific.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Montlake_Pacific1.stream", "http://www.seattle.gov/trafficcams/Montlake_Pacific.htm", "-122.30468", "47.64922", [ null, "47.64922", "-122.30468", null, false ], "60", null, null, "38", "18383" ]
+, [ "row-sh6n~i3wk.amsu", "00000000-0000-0000-35E7-20FAB8C19396", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "23rd Ave E & E Madison St - NS", [ "http://www.seattle.gov/trafficcams/images/23E_Madison.jpg", null ], "rtmp://156.74.125.142:1935/live&file=23_Madison.stream", "NULL", "-122.30244", "47.61939", [ null, "47.61939", "-122.30244", null, false ], "9", null, null, "6", "18789" ]
+, [ "row-bxth~82b6~6skc", "00000000-0000-0000-7EE2-3511624A5594", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "MLK Way S & S Alaska St - EW", [ "http://www.seattle.gov/trafficcams/images/Alaska_MLK.jpg", null ], "rtmp://156.74.125.142:1935/live&file=Alaska_MLK.stream", "http://www.seattle.gov/trafficcams/Alaska_MLK.htm", "-122.29260", "47.56083", [ null, "47.56083", "-122.2926", null, false ], "10", null, null, "42", "18388" ]
+, [ "row-4uzu~23zp_kxfz", "00000000-0000-0000-13D0-ED808565CBB6", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "23rd Ave S & S Jackson St - NS", [ "http://www.seattle.gov/trafficcams/images/23_Jackson.jpg", null ], "rtmp://156.74.125.142:1935/live&file=23_Jackson.stream", "NULL", "-122.30214", "47.59939", [ null, "47.59939", "-122.30214", null, false ], "32", null, null, "18", "17919" ]
+, [ "row-nxrh~mveh_wdhf", "00000000-0000-0000-77A2-C305D9A3507B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 145th St - EW", [ "http://www.seattle.gov/trafficcams/images/aurora_145thb.jpg", null ], "rtmp://156.74.125.142:1935/live&file=145_Aurora.stream", "http://www.seattle.gov/trafficcams/aurora_145thb.htm", "-122.34487", "47.73407", [ null, "47.73407", "-122.34487", null, false ], "46", "116", "1", "33", "19582" ]
+, [ "row-848b~p4ym_95fj", "00000000-0000-0000-1D29-27A4E8431AD6", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "2nd & Stewart", [ "http://www.seattle.gov/trafficcams/images/2_Stewart.jpg", null ], "rtmp://156.74.125.142:1935/live&file=2_Stewart.stream", "NULL", "-122.34027", "47.61094", [ null, "47.61094", "-122.34027", null, false ], "14", null, null, "30", "18081" ]
+, [ "row-vzw3-vuzj_cg72", "00000000-0000-0000-A720-58BFE21E5D34", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "23rd Ave E & E Madison St - EW", [ "http://www.seattle.gov/trafficcams/images/EMadison_23.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Madison_23.stream", "NULL", "-122.30268", "47.61917", [ null, "47.61917", "-122.30268", null, false ], "35", null, null, "6", "18789" ]
+, [ "row-3z8a~hinn.ggfb", "00000000-0000-0000-0D46-5214559592BD", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "4th Ave S & S Atlantic St", [ "http://www.seattle.gov/trafficcams/images/4th_Atlantic.jpg", null ], "rtmp://156.74.125.142:1935/live&file=4_Atlantic.stream", "http://www.seattle.gov/trafficcams/4th_atlantic.htm", "-122.32844", "47.59034", [ null, "47.59034", "-122.32844", null, false ], "27", null, null, "22", "19584" ]
+, [ "row-gvhz.ug9h_zg8q", "00000000-0000-0000-0341-03C0D948F46A", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ Mid Boeing Field", [ "http://images.wsdot.wa.gov/nw/005vc15970.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_boeing.htm", "-122.30024", "47.53815", [ null, "47.53815", "-122.30024", null, false ], "58", null, null, "44", "18388" ]
+, [ "row-5k8f_652e_3ahp", "00000000-0000-0000-3DDE-ED2EAAD8B7C4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 85th St", [ "http://www.seattle.gov/trafficcams/images/aurora_85th.jpg", null ], "rtmp://156.74.125.142:1935/live&file=85_Aurora.stream", "http://www.seattle.gov/trafficcams/aurora_85th.htm", "-122.34638", "47.69051", [ null, "47.69051", "-122.34638", null, false ], "23", null, null, "25", "18377" ]
+, [ "row-38fu.nt3d-np8y", "00000000-0000-0000-2AF8-F0C809240B2C", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "1st Ave S & S Holgate St", [ "http://www.seattle.gov/trafficcams/images/1_Holgate.jpg", null ], "rtmp://156.74.125.142:1935/live&file=1_Holgate.stream", "http://www.seattle.gov/trafficcams/1st_Holgate.htm", "-122.33436", "47.58621", [ null, "47.58621", "-122.33436", null, false ], "57", null, null, "35", "19584" ]
+, [ "row-8fve_h9if-5dtc", "00000000-0000-0000-76BF-B85E1CB8D367", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Rainier Ave S & S Henderson St", [ "http://www.seattle.gov/trafficcams/images/Rainier_Henderson.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Rainier_Henderson.stream", "http://www.seattle.gov/trafficcams/rainier_henderson.htm", "-122.26989", "47.52345", [ null, "47.52345", "-122.26989", null, false ], "51", null, null, "45", "18800" ]
+, [ "row-r76g_vvrm.xd8b", "00000000-0000-0000-5119-1C21B0434D88", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "SR-99 @ West Marginal Way", [ "http://images.wsdot.wa.gov/nw/099vc02671.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/sr99_westmarginal.htm", "-122.33367", "47.53650", [ null, "47.5365", "-122.33367", null, false ], "59", null, null, "13", "18388" ]
+, [ "row-apsp.5y9n.y6y4", "00000000-0000-0000-86C8-D2337395414A", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "11th Ave SW & SW Spokane St", [ "http://www.seattle.gov/trafficcams/images/11_Spokane.jpg", null ], "rtmp://156.74.125.142:1935/live&file=11_Spokane.stream", "http://www.seattle.gov/trafficcams/11th_spokane.htm", "-122.34910", "47.57161", [ null, "47.57161", "-122.3491", null, false ], "13", null, null, "49", "19584" ]
+, [ "row-rzgd-t97u-zm5y", "00000000-0000-0000-5F69-00C8B2F3CB28", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Boren & Howell", [ "http://www.seattle.gov/trafficcams/images/Boren_Howell.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Boren_Howell.stream", "NULL", "-122.33159", "47.61614", [ null, "47.61614", "-122.33159", null, false ], "56", null, null, "7", "18081" ]
+, [ "row-kpyd-dg2x.f2cp", "00000000-0000-0000-1F28-9909E07EA325", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "E Marginal Way S & 16th Ave S", [ "http://www.seattle.gov/trafficcams/images/EMarg_16.jpg", null ], "rtmp://156.74.125.146:1935/live&file=EMarg_16.stream", "NULL", "-122.31321", "47.53436", [ null, "47.53436", "-122.31321", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-yc9i.k2g4.fxqv", "00000000-0000-0000-E00B-50B5D850D9CF", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 130th St - NS", [ "http://www.seattle.gov/trafficcams/images/aurora_130thb.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_130.stream", "http://www.seattle.gov/trafficcams/aurora_130thb.htm", "-122.34507", "47.72293", [ null, "47.72293", "-122.34507", null, false ], "6", "123", "1", "33", "19582" ]
+, [ "row-8c8x.hab3~ab76", "00000000-0000-0000-AC19-BDB70846C43E", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Fremont Ave N & N 36th St", [ "http://www.seattle.gov/trafficcams/images/Fremont_36.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Fremont_36.stream", "NULL", "-122.34988", "47.65143", [ null, "47.65143", "-122.34988", null, false ], "20", null, null, "2", "18377" ]
+, [ "row-kepc_jkwj~5tkp", "00000000-0000-0000-DC57-FE3B3439599A", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ Yesler St", [ "http://images.wsdot.wa.gov/nw/005vc16508.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_yesler.htm", "-122.32378", "47.60053", [ null, "47.60053", "-122.32378", null, false ], "27", null, null, "22", "18379" ]
+, [ "row-e4s5.t6kv~n8r7", "00000000-0000-0000-1CC1-4C7B9F971BBD", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "6th Ave S & S Spokane St", [ "http://www.seattle.gov/trafficcams/images/6_Spokane.jpg", null ], "rtmp://156.74.125.142:1935/live&file=6_Spokane.stream", "http://www.seattle.gov/trafficcams/6th_Spokane.htm", "-122.32593", "47.57125", [ null, "47.57125", "-122.32593", null, false ], "57", null, null, "36", "19584" ]
+, [ "row-epcr_ryic~4q8t", "00000000-0000-0000-2383-9BCF52647224", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "W Seattle Bridge Mid", [ "http://www.seattle.gov/trafficcams/images/WS_Bridgedeck_East.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Wsea_Mid.stream", "http://www.seattle.gov/trafficcams/WSB_Mid-span.htm", "-122.34991", "47.57088", [ null, "47.57088", "-122.34991", null, false ], "13", null, null, "49", "19584" ]
+, [ "row-7eqb~55z7.wu82", "00000000-0000-0000-4EC7-F8C9F67D5140", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ NE 145th St", [ "http://images.wsdot.wa.gov/nw/005vc17461.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/I5_145th.htm", "-122.32280", "47.73405", [ null, "47.73405", "-122.3228", null, false ], null, "117", "2", null, "17924" ]
+, [ "row-m4u7-b5ez~3cfm", "00000000-0000-0000-2676-43F413E01362", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Elliott Ave W & W Mercer Pl", [ "http://www.seattle.gov/trafficcams/images/Elliott_Mercer.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Elliott_Mercer.stream", "NULL", "-122.36836", "47.62649", [ null, "47.62649", "-122.36836", null, false ], "50", null, null, "40", "19575" ]
+, [ "row-dkip_nn29-myew", "00000000-0000-0000-5D90-A3EEB68BE86B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 103rd St", [ "http://www.seattle.gov/trafficcams/images/aurora_103rd.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_105.stream", "http://www.seattle.gov/trafficcams/aurora_103rd.htm", "-122.34458", "47.70294", [ null, "47.70294", "-122.34458", null, false ], "46", null, null, "34", "19582" ]
+, [ "row-28pt.ycgp-2yrv", "00000000-0000-0000-427B-86C51257C479", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ S Albro St", [ "http://images.wsdot.wa.gov/nw/005vc16123.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_albro.htm", "-122.31173", "47.54856", [ null, "47.54856", "-122.31173", null, false ], "58", null, null, "37", "18388" ]
+, [ "row-7t8d~weha~59d3", "00000000-0000-0000-08EA-3C7769BB4801", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "E Marginal Way S & S Michigan St", [ "http://www.seattle.gov/trafficcams/images/EMarg_Mich.jpg", null ], "rtmp://156.74.125.146:1935/live&file=EMarg_Michigan.stream", "NULL", "-122.33137", "47.54500", [ null, "47.545", "-122.33137", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-nuj3.gp53-zc5e", "00000000-0000-0000-E812-08ACA2762A15", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ Pine St", [ "http://images.wsdot.wa.gov/nw/005vc16607.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_pine.htm", "-122.32965", "47.61453", [ null, "47.61453", "-122.32965", null, false ], "19", null, null, "5", "18081" ]
+, [ "row-7h6v.dx6e-3vr9", "00000000-0000-0000-4EC9-5555AFB39BDB", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Montlake Blvd NE & 25th Ave NE", [ "http://www.seattle.gov/trafficcams/images/Montlake_25.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Montlake_25.stream", "http://www.seattle.gov/trafficcams/montlake_25th.htm", "-122.30071", "47.65980", [ null, "47.6598", "-122.30071", null, false ], "60", null, null, "48", "18383" ]
+, [ "row-3yeq_du3d_em3q", "00000000-0000-0000-3ABC-5BA83A5BC4D9", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave NW & NW 65th St - NS", [ "http://www.seattle.gov/trafficcams/images/15NW_65.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15NW_65.stream", "NULL", "-122.37621", "47.67590", [ null, "47.6759", "-122.37621", null, false ], "4", null, null, "1", "18386" ]
+, [ "row-k5ig~jpmg_j6p3", "00000000-0000-0000-6C65-DDBA992F10F0", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "LCW & NE 125th St - EW", [ "http://www.seattle.gov/trafficcams/images/125_LCW.jpg", null ], "rtmp://156.74.125.142:1935/live&file=125_LCW.stream", "http://www.seattle.gov/trafficcams/125th_lakecity.htm", "-122.29404", "47.71933", [ null, "47.71933", "-122.29404", null, false ], "29", "127", "2", "29", "19579" ]
+, [ "row-u2zt~p5px-qstq", "00000000-0000-0000-30BE-AA936A04B73F", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "23rd Ave E & E Cherry St - EW", [ "http://www.seattle.gov/trafficcams/images/ECherry_23.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Cherry_23.stream", "NULL", "-122.30262", "47.60797", [ null, "47.60797", "-122.30262", null, false ], "9", null, null, "17", "19578" ]
+, [ "row-amcg.e558-7b27", "00000000-0000-0000-0ABF-326672EBBFA7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 105th St", [ "http://www.seattle.gov/trafficcams/images/aurora_105th.jpg", null ], "rtmp://156.74.125.142:1935/live&file=105_Aurora.stream", "http://www.seattle.gov/trafficcams/aurora_105th.htm", "-122.34426", "47.70499", [ null, "47.70499", "-122.34426", null, false ], "46", null, null, "34", "19582" ]
+, [ "row-dwvg_xn43~mb83", "00000000-0000-0000-D6DB-82BF31EEAEB4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Montlake Blvd E & E Lake Wash Blvd", [ "http://www.seattle.gov/trafficcams/images/Montlake_LakeWash.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Montlake_LakeWash.stream", "http://www.seattle.gov/trafficcams/Montlake_LakeWash.htm", "-122.30412", "47.64387", [ null, "47.64387", "-122.30412", null, false ], "36", null, null, "6", "18789" ]
+, [ "row-nbqw~p434.x4ft", "00000000-0000-0000-E351-44D2E59CF5F4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "SR99 Viaduct & Blanchard St", [ "http://www.seattle.gov/trafficcams/images/SR99_Viaduct.jpg", null ], "rtmp://156.74.125.146:1935/live&file=SR99_Western.stream", "NULL", "-122.34659", "47.61154", [ null, "47.61154", "-122.34659", null, false ], "5", null, null, "9", "19576" ]
+, [ "row-3rtr~ufmk_vm45", "00000000-0000-0000-061F-918D62F87E57", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Western & Elliott", [ "http://www.seattle.gov/trafficcams/images/Western_Elliott.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Western_Elliott.stream", "NULL", "-122.35990", "47.62002", [ null, "47.62002", "-122.3599", null, false ], "50", null, null, "40", "19575" ]
+, [ "row-smjf.svkm_t6zm", "00000000-0000-0000-D2F3-541F5E2B32E4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "7th Ave & Pike St", [ "http://www.seattle.gov/trafficcams/images/7_Pike.jpg", null ], "rtmp://156.74.125.142:1935/live&file=7_Pike.stream", "http://www.seattle.gov/trafficcams/7th_pike.htm", "-122.33351", "47.61162", [ null, "47.61162", "-122.33351", null, false ], "14", null, null, "24", "18081" ]
+, [ "row-z74k~2mb3-x8bj", "00000000-0000-0000-5D45-4164291E57C7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "4th Ave N & Dexter Ave N", [ "http://www.seattle.gov/trafficcams/images/Westlake_Dexter.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Westlake_Dexter.stream", "NULL", "-122.34977", "47.64606", [ null, "47.64606", "-122.34977", null, false ], "50", null, null, "39", "18390" ]
+, [ "row-nxbg-uy46.8x4h", "00000000-0000-0000-5DE9-F38909BC8197", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "9th & James", [ "http://www.seattle.gov/trafficcams/images/9_James.jpg", null ], "rtmp://156.74.125.142:1935/live&file=9_James.stream", "NULL", "-122.32454", "47.60555", [ null, "47.60555", "-122.32454", null, false ], "19", null, null, "16", "18379" ]
+, [ "row-faej~3rdi_g85m", "00000000-0000-0000-2BD3-1DB2D9E86218", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave W & W Dravus St", [ "http://www.seattle.gov/trafficcams/images/15W_Dravus.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15_Dravus.stream", "NULL", "-122.37640", "47.64844", [ null, "47.64844", "-122.3764", null, false ], "33", null, null, "27", "19575" ]
+, [ "row-wq92_6byt~trmv", "00000000-0000-0000-A014-D0C71858F23D", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "8th Ave & Howell St", [ "http://www.seattle.gov/trafficcams/images/8_Howell.jpg", null ], "rtmp://156.74.125.142:1935/live&file=8_Howell.stream", "http://www.seattle.gov/trafficcams/8thOlive_Howell.htm", "-122.33375", "47.61409", [ null, "47.61409", "-122.33375", null, false ], "14", null, null, "31", "18081" ]
+, [ "row-gp45~r5c7-pnfg", "00000000-0000-0000-1180-40C83583116C", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "E Marginal Way S & S Hanford St", [ "http://www.seattle.gov/trafficcams/images/EMarg_Hanford.jpg", null ], "rtmp://156.74.125.146:1935/live&file=EMarg_Hanford.stream", "NULL", "-122.33994", "47.57576", [ null, "47.57576", "-122.33994", null, false ], "57", null, null, "35", "19584" ]
+, [ "row-n5q8.gfpb~ngv8", "00000000-0000-0000-CF41-6F69D7C1ECCB", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Alaskan Way & S Washington St", [ "http://www.seattle.gov/trafficcams/images/Alaskan_Washington.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Alaskan_Washington.stream", "http://www.seattle.gov/trafficcams/alaskan_wash.htm", "-122.33583", "47.60013", [ null, "47.60013", "-122.33583", null, false ], "49", null, null, "20", "18379" ]
+, [ "row-bjty~8egb_wfxn", "00000000-0000-0000-6BED-C53F4B7FFCAB", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Corson Ave S & S Bailey St", [ "http://www.seattle.gov/trafficcams/images/Corson_Bailey.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Corson_Bailey.stream", "NULL", "-122.32130", "47.54742", [ null, "47.54742", "-122.3213", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-prx2.6x5n~ibkz", "00000000-0000-0000-9FC8-A63500E1F97B", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "SR-520 East Highrise", [ "http://images.wsdot.wa.gov/nw/520vc00398.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/sr520_midspaneast.htm", "-122.29969", "47.59014", [ null, "47.59014", "-122.29969", null, false ], "38", null, null, "42", "17919" ]
+, [ "row-m3u9_4hrg~8eri", "00000000-0000-0000-1C1D-32597C2E29F2", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Broadway & E Pike St - NS", [ "http://www.seattle.gov/trafficcams/images/Broadway_EPike.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Broadway_Pike.stream", "NULL", "-122.32090", "47.61395", [ null, "47.61395", "-122.3209", null, false ], "8", null, null, "11", "19578" ]
+, [ "row-3p4h-t5xu.9z73", "00000000-0000-0000-E05B-D9CE6806818F", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Rainier Ave S & S Hudson St", [ "http://www.seattle.gov/trafficcams/images/Rainier_Hudson.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Rainier_Hudson.stream", "NULL", "-122.28468", "47.55696", [ null, "47.55696", "-122.28468", null, false ], "11", null, null, "43", "18800" ]
+, [ "row-uy95.yzvy-iamk", "00000000-0000-0000-7005-5E397298B5A7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "LCW & 15th Ave NE - NS", [ "http://www.seattle.gov/trafficcams/images/LCW_15.jpg", null ], "rtmp://156.74.125.146:1935/live&file=LCW_15.stream", "http://www.seattle.gov/trafficcams/lakecity_15th.htm", "-122.31085", "47.68835", [ null, "47.68835", "-122.31085", null, false ], "53", null, null, "47", "18792" ]
+, [ "row-dtdn~cc8t-3fe6", "00000000-0000-0000-83CC-15711B453B30", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Denny Way & 4th Ave N", [ "http://www.seattle.gov/trafficcams/images/4_Denny.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Denny_4.stream", "NULL", "-122.34876", "47.61850", [ null, "47.6185", "-122.34876", null, false ], "56", null, null, "7", "19576" ]
+, [ "row-59c6.gkci.fc9g", "00000000-0000-0000-D525-84365E5644C0", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave NW & NW 85th St", [ "http://www.seattle.gov/trafficcams/images/15NW_85.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15NW_85.stream", "NULL", "-122.37690", "47.69050", [ null, "47.6905", "-122.3769", null, false ], "3", "131", "1", "23", "18798" ]
+, [ "row-cze6.7haz.ga5z", "00000000-0000-0000-40CE-FC96558617F9", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-90 Midspan", [ "http://images.wsdot.wa.gov/nw/090vc00508.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i90_midspan.htm", "-122.27021", "47.58989", [ null, "47.58989", "-122.27021", null, false ], null, null, null, null, "17919" ]
+, [ "row-2ujw~fb5y-xnzm", "00000000-0000-0000-CB82-945C42BC28D3", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "35th Ave SW & SW Fauntleroy", [ "http://www.seattle.gov/trafficcams/images/35_Fauntleroy.jpg", null ], "rtmp://156.74.125.142:1935/live&file=35_Fauntleroy.stream", "http://www.seattle.gov/trafficcams/35th_fauntleroy.htm", "-122.37610", "47.56494", [ null, "47.56494", "-122.3761", null, false ], "1", null, null, "50", "19581" ]
+, [ "row-b8fa-nnw9~psz7", "00000000-0000-0000-C194-595AEC4C775C", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ Northgate Way", [ "http://images.wsdot.wa.gov/nw/005vc17277.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_northgate.htm", "-122.33001", "47.70592", [ null, "47.70592", "-122.33001", null, false ], "46", "134", "1", "34", "19582" ]
+, [ "row-zwf3-3iz8~b6c6", "00000000-0000-0000-BF8E-B60EBA0AC796", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "LCW & NE 145th St - NS", [ "http://www.seattle.gov/trafficcams/images/LCW_145.jpg", null ], "rtmp://156.74.125.146:1935/live&file=LCW_145.stream", "http://www.seattle.gov/trafficcams/lakecity_145th.htm", "-122.29229", "47.73215", [ null, "47.73215", "-122.29229", null, false ], "29", "119", "2", "29", "19579" ]
+, [ "row-cxm7.zxin-p8dg", "00000000-0000-0000-8DA9-29314C7627B8", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "SR-520 East Highrise", [ "http://images.wsdot.wa.gov/nw/520vc00398.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/sr520_midspaneast.htm", "-122.25642", "47.63994", [ null, "47.63994", "-122.25642", null, false ], null, null, null, null, "17791" ]
+, [ "row-4pus_i4iz-8s75", "00000000-0000-0000-5ACB-FCEE60878514", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "W Seattle Bridge West", [ "http://www.seattle.gov/trafficcams/images/WS_Bridge_West.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Wsea_West.stream", "http://www.seattle.gov/trafficcams/WSB_Delridge.htm", "-122.35652", "47.57118", [ null, "47.57118", "-122.35652", null, false ], "48", null, null, "49", "18385" ]
+, [ "row-ab78-mgkg~zsn8", "00000000-0000-0000-6313-C417B30A7927", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave NW & NW Market St - NS", [ "http://www.seattle.gov/trafficcams/images/15NW_Market.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15_Market.stream", "NULL", "-122.37631", "47.66852", [ null, "47.66852", "-122.37631", null, false ], "4", null, null, "1", "18386" ]
+, [ "row-is7s~zm3i.2gdd", "00000000-0000-0000-773F-12E33DF2F456", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "5th Ave & James St", [ "http://www.seattle.gov/trafficcams/images/5_James.jpg", null ], "rtmp://156.74.125.142:1935/live&file=5_James.stream", "NULL", "-122.32912", "47.60381", [ null, "47.60381", "-122.32912", null, false ], "14", null, null, "19", "18379" ]
+, [ "row-s5kt_a22w-fiqs", "00000000-0000-0000-5709-C95F72913282", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "4th Ave S @ I-90 TD", [ "http://www.seattle.gov/trafficcams/images/4thave_i90.jpg", null ], "rtmp://156.74.125.142:1935/live&file=4_I90.stream", "http://www.seattle.gov/trafficcams/4thave_i90.htm", "-122.32924", "47.59341", [ null, "47.59341", "-122.32924", null, false ], "49", null, null, "20", "18379" ]
+, [ "row-z67t.h432.9q55", "00000000-0000-0000-53E0-A3C0D25181B0", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Boren & Madison", [ "http://www.seattle.gov/trafficcams/images/Boren_Madison.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Boren_Madison.stream", "http://www.seattle.gov/trafficcams/boren_madison.htm", "-122.32534", "47.60934", [ null, "47.60934", "-122.32534", null, false ], "19", null, null, "12", "18379" ]
+, [ "row-w57c-phia_xp5k", "00000000-0000-0000-8E76-122BDA9F9EBE", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "SR99 & Lander St", [ "http://www.seattle.gov/trafficcams/images/SR99_Lander.jpg", null ], "rtmp://156.74.125.146:1935/live&file=SR99_Lander.stream", "NULL", "-122.33951", "47.57975", [ null, "47.57975", "-122.33951", null, false ], "57", null, null, "35", "19584" ]
+, [ "row-nbf6-zbbp_pgyb", "00000000-0000-0000-3694-78918E9EB6AB", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "23rd Ave E & E Cherry St - NS", [ "http://www.seattle.gov/trafficcams/images/23E_Cherry.jpg", null ], "rtmp://156.74.125.142:1935/live&file=23_Cherry.stream", "NULL", "-122.30268", "47.60812", [ null, "47.60812", "-122.30268", null, false ], "9", null, null, "17", "19578" ]
+, [ "row-dkt8.ji46~2i8x", "00000000-0000-0000-D917-FE0CE81AE884", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "1st Ave S & E Marginal Way", [ "http://www.seattle.gov/trafficcams/images/1_EMarg.jpg", null ], "rtmp://156.74.125.142:1935/live&file=1_Marginal.stream", "http://www.seattle.gov/trafficcams/1st_Marginal.htm", "-122.33421", "47.54833", [ null, "47.54833", "-122.33421", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-s88d~c3sr~3q7t", "00000000-0000-0000-BBA9-3C1BEF12AF05", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Broadway & E Roy St", [ "http://www.seattle.gov/trafficcams/images/Broadway_Roy.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Broadway_Roy.stream", "NULL", "-122.32086", "47.62512", [ null, "47.62512", "-122.32086", null, false ], "44", null, null, "4", "18376" ]
+, [ "row-uhyk_sng4-a4f8", "00000000-0000-0000-7F19-3EB335D92261", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 117 Pl", [ "http://www.seattle.gov/trafficcams/images/Aurora_117.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_117.stream", "NULL", "-122.34476", "47.71467", [ null, "47.71467", "-122.34476", null, false ], "46", "123", "1", "33", "19582" ]
+, [ "row-y7nw.v9qr.gtxi", "00000000-0000-0000-911B-4D4677EC1AC7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "MLK Way S & S Othello St - NS", [ "http://www.seattle.gov/trafficcams/images/MLK_Othello.jpg", null ], "rtmp://156.74.125.146:1935/live&file=MLK_Othello.stream", "http://www.seattle.gov/trafficcams/mlk_othello.htm", "-122.28111", "47.53689", [ null, "47.53689", "-122.28111", null, false ], "7", null, null, "45", "18800" ]
+, [ "row-8c9r-96s5_55zx", "00000000-0000-0000-C1B7-AED432CB370B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "14th Ave S & S Cloverdale St", [ "http://www.seattle.gov/trafficcams/images/14_Cloverdale.jpg", null ], "rtmp://156.74.125.142:1935/live&file=14_Cloverdale.stream", "NULL", "-122.31476", "47.52640", [ null, "47.5264", "-122.31476", null, false ], "59", null, null, "15", "18388" ]
+, [ "row-z26d-u3r7_y39z", "00000000-0000-0000-D9B1-C4AD080719CC", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Broadway & E Pike St - EW", [ "http://www.seattle.gov/trafficcams/images/EPike_Broadway.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Pike_Broadway.stream", "NULL", "-122.32058", "47.61400", [ null, "47.614", "-122.32058", null, false ], "8", null, null, "11", "19578" ]
+, [ "row-ptd4~573k_u2xz", "00000000-0000-0000-A86A-B34DC81FF30C", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "SR-520 @ Montlake Blvd", [ "http://images.wsdot.wa.gov/nw/520vc00093.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/sr520_montlake.htm", "-122.30519", "47.64394", [ null, "47.64394", "-122.30519", null, false ], "36", null, null, "6", "18789" ]
+, [ "row-ugrz.zzh2_f9kk", "00000000-0000-0000-36BE-39B73CD4E341", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 46th St", [ "http://www.seattle.gov/trafficcams/images/Aurora_46.jpg", null ], "rtmp://156.74.125.142:1935/live&file=Aurora_46.stream", "NULL", "-122.34743", "47.66170", [ null, "47.6617", "-122.34743", null, false ], "20", null, null, "2", "18377" ]
+, [ "row-v9nd-u5jd.jzpx", "00000000-0000-0000-85FC-5B9BE9D9283D", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 90th St", [ "http://www.seattle.gov/trafficcams/images/Aurora_90.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_90.stream", "NULL", "-122.34447", "47.69428", [ null, "47.69428", "-122.34447", null, false ], "46", null, null, "34", "18377" ]
+, [ "row-kapn.dipx~gtpi", "00000000-0000-0000-57AF-F0AA5C98E015", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Elliott & Broad", [ "http://www.seattle.gov/trafficcams/images/Elliott_Broad.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Elliott_Broad.stream", "NULL", "-122.35417", "47.61547", [ null, "47.61547", "-122.35417", null, false ], "5", null, null, "9", "19576" ]
+, [ "row-4zdk-8vvy_i9nk", "00000000-0000-0000-AF2F-271B74BB027B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "5th Ave NE & NE Northgate Way", [ "http://www.seattle.gov/trafficcams/images/northgate_5tha.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Northgate_5.stream", "http://www.seattle.gov/trafficcams/northgate_5tha.htm", "-122.32476", "47.70867", [ null, "47.70867", "-122.32476", null, false ], "46", null, null, "28", "19579" ]
+, [ "row-mmyb~kj4q.4r6f", "00000000-0000-0000-7D6D-1BBE8A0F14ED", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Fairview & Valley", [ "http://www.seattle.gov/trafficcams/images/Fairview_Valley.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Fairview_Valley.stream", "http://www.seattle.gov/trafficcams/fairview_valley.htm", "-122.33426", "47.62621", [ null, "47.62621", "-122.33426", null, false ], "56", null, null, "10", "18390" ]
+, [ "row-j833-z7n4_vcb9", "00000000-0000-0000-DF7F-6A03830524C7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "LCW & 15th Ave NE - EW", [ "http://www.seattle.gov/trafficcams/images/15_LCW.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15_LCW.stream", "NULL", "-122.31221", "47.68658", [ null, "47.68658", "-122.31221", null, false ], "53", null, null, "47", "18792" ]
+, [ "row-utc3-d2uu-qxg7", "00000000-0000-0000-503E-5BB7F02462BD", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave NW & NW Market St - EW", [ "http://www.seattle.gov/trafficcams/images/NWMarket_15.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Market_15.stream", "NULL", "-122.37595", "47.66860", [ null, "47.6686", "-122.37595", null, false ], "4", null, null, "1", "18386" ]
+, [ "row-qf68_93dj_ez9r", "00000000-0000-0000-41F7-D1E85AEC14F7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "42nd Ave SW & SW Alaska St", [ "http://www.seattle.gov/trafficcams/images/Alaska_42.jpg", null ], "rtmp://156.74.125.142:1935/live&file=42_Alaska.stream", "NULL", "-122.38532", "47.56099", [ null, "47.56099", "-122.38532", null, false ], "1", null, null, "50", "18795" ]
+, [ "row-khcx.sgey.m523", "00000000-0000-0000-1BDA-1747D11A5B81", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Chelan Ave SW & W Marginal Way SW", [ "http://www.seattle.gov/trafficcams/images/Chelan_St_East.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Chelan_Marginal.stream", "http://www.seattle.gov/trafficcams/Marginal_Chelan.htm", "-122.36021", "47.57209", [ null, "47.57209", "-122.36021", null, false ], "12", null, null, "49", "18385" ]
+, [ "row-vby9~anf8.2s7v", "00000000-0000-0000-178D-0B5BC1EE321D", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ NE 45th St", [ "http://images.wsdot.wa.gov/nw/005vc16939.jpg", null ], "NULL", "NULL", "-122.32215", "47.66133", [ null, "47.66133", "-122.32215", null, false ], "60", null, null, "38", "18383" ]
+, [ "row-xai5-yybk-f7et", "00000000-0000-0000-D645-E3B8EA5BFAD7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "E Marginal Way S & S Hudson St", [ "http://www.seattle.gov/trafficcams/images/EMarg_Hudson.jpg", null ], "rtmp://156.74.125.146:1935/live&file=EMarg_Hudson.stream", "http://www.seattle.gov/trafficcams/Marginal_Hudson.htm", "-122.33923", "47.55746", [ null, "47.55746", "-122.33923", null, false ], "22", null, null, "36", "19584" ]
+, [ "row-t3pe_pdf6_ctpa", "00000000-0000-0000-D2D2-657305934218", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Airport Way S & S Othello St", [ "http://www.seattle.gov/trafficcams/images/Airport_Othello.jpg", null ], "rtmp://156.74.125.142:1935/live&file=Airport_Othello.stream", "http://www.seattle.gov/trafficcams/airport_othello.htm", "-122.30220", "47.53744", [ null, "47.53744", "-122.3022", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-r7ae~iewm_p45a", "00000000-0000-0000-86AF-DA27C9511AEF", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Roosevelt Way NE & NE 75th St", [ "http://www.seattle.gov/trafficcams/images/Roosevelt_75.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Roosevelt_75.stream", "NULL", "-122.31757", "47.68250", [ null, "47.6825", "-122.31757", null, false ], "53", null, null, "47", "18792" ]
+, [ "row-6ciy_hyv4_ynz3", "00000000-0000-0000-AA1D-8EEB4B5E1087", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "SR-520 @ West Highrise", [ "http://images.wsdot.wa.gov/nw/520vc00241.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/sr520_midspan.htm", "-122.28833", "47.64476", [ null, "47.64476", "-122.28833", null, false ], "36", null, null, "6", "18789" ]
+, [ "row-2nua.ecje.bief", "00000000-0000-0000-E47D-51502EB7A46B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "1st Ave & Denny Way", [ "http://www.seattle.gov/trafficcams/images/1_Denny.jpg", null ], "rtmp://156.74.125.142:1935/live&file=1_Denny.stream", "NULL", "-122.35557", "47.61851", [ null, "47.61851", "-122.35557", null, false ], "5", null, null, "9", "18390" ]
+, [ "row-psfi-r72x_rudd", "00000000-0000-0000-F8EA-1BFA505826C1", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Fauntleroy SW & SW Cloverdale St", [ "http://www.seattle.gov/trafficcams/images/Fauntleroy_Cloverdale.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Fauntleroy_Cloverdale.stream", "NULL", "-122.39281", "47.52671", [ null, "47.52671", "-122.39281", null, false ], "18", null, null, "51", "17916" ]
+, [ "row-hkjt-4j9k_8t6h", "00000000-0000-0000-17C3-E71CA614EBCA", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "4th Ave S & S Michigan St", [ "http://www.seattle.gov/trafficcams/images/4_Michigan.jpg", null ], "rtmp://156.74.125.142:1935/live&file=4_Michigan.stream", "http://www.seattle.gov/trafficcams/4th_Michigan.htm", "-122.32968", "47.54544", [ null, "47.54544", "-122.32968", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-8qwx-vhnd~2r5t", "00000000-0000-0000-84C0-2449495D54CE", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Queen Anne Ave N & Mercer St", [ "http://www.seattle.gov/trafficcams/images/QueenAnne_Mercer.jpg", null ], "rtmp://156.74.125.146:1935/live&file=QueenAnne_Mercer.stream", "NULL", "-122.35660", "47.62446", [ null, "47.62446", "-122.3566", null, false ], "50", null, null, "40", "18390" ]
+, [ "row-326k_yngz~swdc", "00000000-0000-0000-0296-4A0365375CE5", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ S Spokane St", [ "http://images.wsdot.wa.gov/nw/005vc16297.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_spokane.htm", "-122.31949", "47.57278", [ null, "47.57278", "-122.31949", null, false ], "57", null, null, "41", "17919" ]
+, [ "row-ew9j~fpjp~tcz9", "00000000-0000-0000-5F1D-E1A9AFE4F622", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & Ward St", [ "http://www.seattle.gov/trafficcams/images/Aurora_Ward.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_Ward.stream", "NULL", "-122.34354", "47.62793", [ null, "47.62793", "-122.34354", null, false ], "50", null, null, "7", "18390" ]
+, [ "row-2b5c.2u42-s2us", "00000000-0000-0000-0C20-7700EA126B2A", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & Aloha St", [ "http://www.seattle.gov/trafficcams/images/Aurora_Aloha_South.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_Aloha.stream", "http://www.seattle.gov/trafficcams/Aurora_aloha.htm", "-122.34367", "47.62661", [ null, "47.62661", "-122.34367", null, false ], "50", null, null, "40", "18390" ]
+, [ "row-7hyk.9pny.j32u", "00000000-0000-0000-BF9A-84480B160C3D", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "1st Ave S & S Atlantic St", [ "http://www.seattle.gov/trafficcams/images/1_Atlantic.jpg", null ], "rtmp://156.74.125.142:1935/live&file=1_Atlantic.stream", "NULL", "-122.33405", "47.59014", [ null, "47.59014", "-122.33405", null, false ], "57", null, null, "35", "19584" ]
+, [ "row-9shj.z8jm_3w79", "00000000-0000-0000-7B13-E29220483CD4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Denny,Stewart,Yale", [ "http://www.seattle.gov/trafficcams/images/Yale_Denny.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Denny_Yale.stream", "NULL", "-122.33091", "47.61843", [ null, "47.61843", "-122.33091", null, false ], "56", null, null, "10", "18081" ]
+, [ "row-7fcr~e2ye_hpp5", "00000000-0000-0000-4C67-9EF1273F80DB", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ Lake City Way", [ "http://images.wsdot.wa.gov/nw/005vc17078.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_lakecityway.htm", "-122.32067", "47.68137", [ null, "47.68137", "-122.32067", null, false ], "53", null, null, "28", "18792" ]
+, [ "row-nufa~vttm_bsvg", "00000000-0000-0000-4552-90919313CEF4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Airport Way S & S Norfolk St", [ "http://www.seattle.gov/trafficcams/images/Airport_Norfolk.jpg", null ], "rtmp://156.74.125.142:1935/live&file=Airport_Norfolk.stream", "NULL", "-122.28819", "47.51369", [ null, "47.51369", "-122.28819", null, false ], "58", null, null, "37", "18800" ]
+, [ "row-rbes~2e8j-5yr8", "00000000-0000-0000-9883-47635825A96B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave NW & NW 65th St - EW", [ "http://www.seattle.gov/trafficcams/images/NW65_15.jpg", null ], "rtmp://156.74.125.142:1935/live&file=65_15NW.stream", "NULL", "-122.37671", "47.67611", [ null, "47.67611", "-122.37671", null, false ], "3", null, null, "23", "18798" ]
+, [ "row-wqgi-m6mr~p7gn", "00000000-0000-0000-1DDE-ECD32B40DC0A", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "SR-520 East Highrise", [ "http://images.wsdot.wa.gov/nw/520vc00398.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/sr520_midspaneast.htm", "-122.33409", "47.54612", [ null, "47.54612", "-122.33409", null, false ], "22", null, null, "37", "18388" ]
+, [ "row-umgf.kpfx_6db9", "00000000-0000-0000-9ACE-1C8DD76A6667", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "5th Ave NE & NE Northgate Way", [ "http://www.seattle.gov/trafficcams/images/northgate_5thb.jpg", null ], "rtmp://156.74.125.142:1935/live&file=5_Northgate.stream", "http://www.seattle.gov/trafficcams/northgate_5thb.htm", "-122.32330", "47.70775", [ null, "47.70775", "-122.3233", null, false ], "46", null, null, "28", "19579" ]
+, [ "row-cdf9~8t6v~7gui", "00000000-0000-0000-D1A1-1CA20691A789", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "1st Ave S & S Royal Brougham Way", [ "http://www.seattle.gov/trafficcams/images/1_RoyalBrougham.jpg", null ], "rtmp://156.74.125.142:1935/live&file=1_RoyalB.stream", "http://www.seattle.gov/trafficcams/royal_safeco.htm", "-122.33438", "47.59226", [ null, "47.59226", "-122.33438", null, false ], "49", null, null, "20", "19584" ]
+, [ "row-up4d~qy9x.zebd", "00000000-0000-0000-2700-EC8E9E7EE87B", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "LCW & NE 145th St - EW", [ "http://www.seattle.gov/trafficcams/images/145_LCW.jpg", null ], "rtmp://156.74.125.142:1935/live&file=145_LCW.stream", "http://www.seattle.gov/trafficcams/145th_lakecity.htm", "-122.29159", "47.73383", [ null, "47.73383", "-122.29159", null, false ], null, "118", "2", null, "17924" ]
+, [ "row-jjgb~57u8-tfc4", "00000000-0000-0000-7C81-2A19BDD8F68E", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Boren & Seneca", [ "http://www.seattle.gov/trafficcams/images/Boren_Seneca.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Boren_Seneca.stream", "NULL", "-122.32645", "47.61064", [ null, "47.61064", "-122.32645", null, false ], "19", null, null, "12", "18081" ]
+, [ "row-fhcx_n4xm~8vv7", "00000000-0000-0000-2383-71A7F4A4AB05", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "California Ave SW & SW Alaska St", [ "http://www.seattle.gov/trafficcams/images/California_Alaska.jpg", null ], "rtmp://156.74.125.146:1935/live&file=California_Alaska.stream", "NULL", "-122.38690", "47.56097", [ null, "47.56097", "-122.3869", null, false ], "1", null, null, "50", "18795" ]
+, [ "row-vybj-b49k_jwwk", "00000000-0000-0000-8F46-1BB2B4E88861", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Eastlake Ave E & Harvard Ave E", [ "http://www.seattle.gov/trafficcams/images/Harvard_Eastlake.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Eastlake_Harvard.stream", "NULL", "-122.32204", "47.65044", [ null, "47.65044", "-122.32204", null, false ], "36", null, null, "4", "18376" ]
+, [ "row-swt2.vdqw~mdug", "00000000-0000-0000-EE1D-44A0C6A34634", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "West Seattle Fwy Pullout", [ "http://www.seattle.gov/trafficcams/images/WS_Bridge_Fauntleroy.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Wsea_FwyPullOut.stream", "NULL", "-122.37297", "47.56978", [ null, "47.56978", "-122.37297", null, false ], "45", null, null, "49", "19581" ]
+, [ "row-qeru.sw4r_pkdg", "00000000-0000-0000-8099-5A4F5DB268BC", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "3rd Ave S & S Lander St", [ "http://www.seattle.gov/trafficcams/images/3_Lander.jpg", null ], "rtmp://156.74.125.142:1935/live&file=3_Lander.stream", "http://www.seattle.gov/trafficcams/3rd_Lander.htm", "-122.33064", "47.57985", [ null, "47.57985", "-122.33064", null, false ], "57", null, null, "35", "19584" ]
+, [ "row-2rvc_257i.vkce", "00000000-0000-0000-C381-AB744A2BF2CD", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "23rd Ave S & S Jackson St - EW", [ "http://www.seattle.gov/trafficcams/images/Jackson_23.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Jackson_23.stream", "NULL", "-122.30233", "47.59932", [ null, "47.59932", "-122.30233", null, false ], "28", null, null, "17", "17919" ]
+, [ "row-2brs.bf8t~7ext", "00000000-0000-0000-1837-69E83BF15618", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 145th St - NS", [ "http://www.seattle.gov/trafficcams/images/aurora_145tha.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_145.stream", "http://www.seattle.gov/trafficcams/aurora_145tha.htm", "-122.34518", "47.73341", [ null, "47.73341", "-122.34518", null, false ], "6", "116", "1", "33", "19582" ]
+, [ "row-6f4r~5c3c_zc54", "00000000-0000-0000-1B8C-9092EA06A4E4", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "NE 45th St & Union Bay Pl", [ "http://www.seattle.gov/trafficcams/images/NE45_UnionBay.jpg", null ], "rtmp://156.74.125.142:1935/live&file=45_UnionBay.stream", "http://www.seattle.gov/trafficcams/45_Union_Bay.htm", "-122.29531", "47.66131", [ null, "47.66131", "-122.29531", null, false ], "53", null, null, "48", "18383" ]
+, [ "row-vumz~8q45.53kw", "00000000-0000-0000-D812-C245C1B5F253", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "12th Ave S & Boren Ave S", [ "http://www.seattle.gov/trafficcams/images/12_Boren.jpg", null ], "rtmp://156.74.125.142:1935/live&file=12_Boren.stream", "NULL", "-122.31711", "47.60081", [ null, "47.60081", "-122.31711", null, false ], "26", null, null, "16", "18379" ]
+, [ "row-dwts~xvwz~dica", "00000000-0000-0000-48FA-DA9C020F3F4F", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "25th Ave NE & NE 65th St", [ "http://www.seattle.gov/trafficcams/images/25NE_65.jpg", null ], "rtmp://156.74.125.142:1935/live&file=25NE_65.stream", "NULL", "-122.30073", "47.67669", [ null, "47.67669", "-122.30073", null, false ], "53", null, null, "47", "18792" ]
+, [ "row-mafj-bgd6-zczi", "00000000-0000-0000-81AB-F4D2B403A7BF", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "LCW & NE 125th St - NS", [ "http://www.seattle.gov/trafficcams/images/LCW_125.jpg", null ], "rtmp://156.74.125.146:1935/live&file=LCW_125.stream", "http://www.seattle.gov/trafficcams/lakecity_125th.htm", "-122.29561", "47.71848", [ null, "47.71848", "-122.29561", null, false ], "29", "117", "2", "29", "19579" ]
+, [ "row-mi2w.mvdy~9db6", "00000000-0000-0000-C7A7-DD8DD8FC2630", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "MLK Way S & S Othello St - EW", [ "http://www.seattle.gov/trafficcams/images/Othello_MLK.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Othello_MLK.stream", "http://www.seattle.gov/trafficcams/othello_mlk.htm", "-122.28057", "47.53709", [ null, "47.53709", "-122.28057", null, false ], "7", null, null, "45", "18800" ]
+, [ "row-4v3z_zh5k.rjjh", "00000000-0000-0000-6010-1691F95E99D6", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 130th St - EW", [ "http://www.seattle.gov/trafficcams/images/aurora_130tha.jpg", null ], "rtmp://156.74.125.142:1935/live&file=130_Aurora.stream", "http://www.seattle.gov/trafficcams/aurora_130tha.htm", "-122.34683", "47.72328", [ null, "47.72328", "-122.34683", null, false ], "6", "123", "1", "33", "19582" ]
+, [ "row-jhd7_zzqx~2zfj", "00000000-0000-0000-FC3D-DD13D7303BDB", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Fairview & Mercer", [ "http://www.seattle.gov/trafficcams/images/Fairview_Mercer.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Fairview_Mercer.stream", "http://www.seattle.gov/trafficcams/fairview_mercer.htm", "-122.33438", "47.62462", [ null, "47.62462", "-122.33438", null, false ], "56", null, null, "10", "18390" ]
+, [ "row-tidz_d2dj~uhwx", "00000000-0000-0000-DC13-89973476A89F", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "4th Ave S & S Jackson St", [ "http://www.seattle.gov/trafficcams/images/4_Jackson.jpg", null ], "rtmp://156.74.125.142:1935/live&file=4_Jackson.stream", "NULL", "-122.32915", "47.59912", [ null, "47.59912", "-122.32915", null, false ], "49", null, null, "22", "18379" ]
+, [ "row-d9hh~49vj~idai", "00000000-0000-0000-4E3A-4287778D1BD7", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "5th Ave S & S Dearborn St", [ "http://www.seattle.gov/trafficcams/images/5_Dearborn.jpg", null ], "rtmp://156.74.125.142:1935/live&file=5_Dearborn.stream", "NULL", "-122.32779", "47.59587", [ null, "47.59587", "-122.32779", null, false ], "27", null, null, "22", "18379" ]
+, [ "row-86nn~mcdb.ng3x", "00000000-0000-0000-BC1D-8992B7DACA30", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & N 87th St", [ "http://www.seattle.gov/trafficcams/images/aurora_87th.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_85.stream", "http://www.seattle.gov/trafficcams/aurora_87th.htm", "-122.34463", "47.69195", [ null, "47.69195", "-122.34463", null, false ], "23", null, null, "34", "18377" ]
+, [ "row-kvn4.mndk-z47k", "00000000-0000-0000-0991-B301B29E0740", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "16th Ave E & E Madison St", [ "http://www.seattle.gov/trafficcams/images/16_Madison.jpg", null ], "rtmp://156.74.125.142:1935/live&file=16_Madison.stream", "NULL", "-122.31143", "47.61513", [ null, "47.61513", "-122.31143", null, false ], "9", null, null, "4", "19578" ]
+, [ "row-56e3~zsrg_hrbh", "00000000-0000-0000-E323-60BBED44B674", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ NE 85th st", [ "http://images.wsdot.wa.gov/nw/005vc17153.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_85th.htm", "-122.32895", "47.69050", [ null, "47.6905", "-122.32895", null, false ], "46", null, null, "28", "18792" ]
+, [ "row-zwid-b6ky-w7sz", "00000000-0000-0000-4F59-107F2DB6302C", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "15th Ave NW & NW Leary Way", [ "http://www.seattle.gov/trafficcams/images/15NW_Leary.jpg", null ], "rtmp://156.74.125.142:1935/live&file=15_Leary.stream", "NULL", "-122.37593", "47.66360", [ null, "47.6636", "-122.37593", null, false ], "4", null, null, "1", "18386" ]
+, [ "row-bhsv_s7xr~g9m3", "00000000-0000-0000-67E9-7BE6C93DC937", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-90 @ 18th Ave S", [ "http://images.wsdot.wa.gov/nw/090vc00318.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i90_18th.htm", "-122.28579", "47.59024", [ null, "47.59024", "-122.28579", null, false ], "39", null, null, "18", "17919" ]
+, [ "row-meje_ckxe~mw36", "00000000-0000-0000-217F-984FBC442792", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Fauntleroy Way SW & SW Alaska St", [ "http://www.seattle.gov/trafficcams/images/Fauntleroy_Alaska.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Fauntleroy_Alaska.stream", "http://www.seattle.gov/trafficcams/fauntleroy_alaska.htm", "-122.38128", "47.56119", [ null, "47.56119", "-122.38128", null, false ], "1", null, null, "50", "19581" ]
+, [ "row-gf8y-5s7f-umqq", "00000000-0000-0000-B29F-E921FC18FD33", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Dexter & Denny", [ "http://www.seattle.gov/trafficcams/images/Dexter_Denny.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Denny_Dexter.stream", "NULL", "-122.34222", "47.61848", [ null, "47.61848", "-122.34222", null, false ], "56", null, null, "7", "19576" ]
+, [ "row-g5mi_twtw-ibha", "00000000-0000-0000-E746-A184A85B0B56", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ S Holgate St", [ "http://images.wsdot.wa.gov/nw/005vc16396.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_holgate.htm", "-122.32322", "47.58610", [ null, "47.5861", "-122.32322", null, false ], "57", null, null, "35", "19584" ]
+, [ "row-8cqs~d3uz.ej5c", "00000000-0000-0000-2EB2-3EAB22681D56", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & Winona Ave N", [ "http://www.seattle.gov/trafficcams/images/aurora_winona.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_Winona.stream", "http://www.seattle.gov/trafficcams/aurora_winona.htm", "-122.34439", "47.68294", [ null, "47.68294", "-122.34439", null, false ], "53", null, null, "25", "18377" ]
+, [ "row-s3df_iz6g_2vab", "00000000-0000-0000-79C5-419BFE626519", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "1st Ave NE & NE Northgate Way", [ "http://www.seattle.gov/trafficcams/images/1_Northgate.jpg", null ], "rtmp://156.74.125.142:1935/live&file=1_Northgate.stream", "http://www.seattle.gov/trafficcams/northgate_1st.htm", "-122.32876", "47.70886", [ null, "47.70886", "-122.32876", null, false ], "46", null, null, "28", "19579" ]
+, [ "row-cfqp_rupx~922m", "00000000-0000-0000-FCC7-583DDC9C9AEE", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Airport Way S & S Lander St", [ "http://www.seattle.gov/trafficcams/images/Airport_Lander.jpg", null ], "rtmp://156.74.125.142:1935/live&file=Airport_Lander.stream", "NULL", "-122.32130", "47.57991", [ null, "47.57991", "-122.3213", null, false ], "57", null, null, "36", "19584" ]
+, [ "row-uewf.wfth~ux7k", "00000000-0000-0000-1AA0-2B58CCE79450", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Aurora Ave N & Mercer St", [ "http://www.seattle.gov/trafficcams/images/aurora_mercer.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Aurora_Mercer.stream", "http://www.seattle.gov/trafficcams/aurora_mercer.htm", "-122.34356", "47.62451", [ null, "47.62451", "-122.34356", null, false ], "56", null, null, "7", "18390" ]
+, [ "row-kbst-2wbe.nnzy", "00000000-0000-0000-43F2-6F404A3FB6B2", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "E Marginal Way S & S Idaho St", [ "http://www.seattle.gov/trafficcams/images/EMarg_Idaho.jpg", null ], "rtmp://156.74.125.146:1935/live&file=EMarg_Idaho.stream", "NULL", "-122.33953", "47.56432", [ null, "47.56432", "-122.33953", null, false ], "57", null, null, "36", "19584" ]
+, [ "row-wbyb~hq9t~8j7h", "00000000-0000-0000-27A9-5440E95CEED0", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Rainier Ave S & S Dearborn St", [ "http://www.seattle.gov/trafficcams/images/Rainier_Dearborn.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Rainier_Dearborn.stream", "NULL", "-122.31155", "47.59577", [ null, "47.59577", "-122.31155", null, false ], "43", null, null, "18", "17919" ]
+, [ "row-4k8n-enkj.vxjs", "00000000-0000-0000-B056-B3C9ACADD031", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ Mercer St", [ "http://images.wsdot.wa.gov/nw/005vc16702.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_mercer.htm", "-122.32849", "47.62560", [ null, "47.6256", "-122.32849", null, false ], "16", null, null, "4", "18390" ]
+, [ "row-nfw7_cnkr_cr5n", "00000000-0000-0000-3B43-4A2F4591539E", 0, 1560291809, null, 1560291811, null, "{ }", "SDOT", "Evanston Ave N & N 36th St", [ "http://www.seattle.gov/trafficcams/images/Evanston_36.jpg", null ], "rtmp://156.74.125.146:1935/live&file=Evanston_36.stream", "NULL", "-122.35130", "47.65154", [ null, "47.65154", "-122.3513", null, false ], "20", null, null, "2", "18377" ]
+, [ "row-td5m~sdzj_55de", "00000000-0000-0000-50E9-E15AEDF83DE1", 0, 1560291809, null, 1560291811, null, "{ }", "WSDOT", "I-5 @ I-90 Interchange", [ "http://images.wsdot.wa.gov/nw/090vc00245.jpg", null ], "NULL", "http://www.seattle.gov/trafficcams/i5_i90.htm", "-122.32036", "47.59365", [ null, "47.59365", "-122.32036", null, false ], "42", null, null, "41", "19584" ]
+ ]
+}
